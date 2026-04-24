@@ -21,8 +21,6 @@ int main() {
         curr = max(val, curr + val);
         maxSum = max(maxSum, curr);
     }
-
-    // If all are 1
     if(maxSum <= 0) {
         cout << totalOnes - 1 << endl;
     } else {
